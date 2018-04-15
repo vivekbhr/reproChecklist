@@ -22,8 +22,8 @@ This checklist has been adopted from the [TOP guidelines](https://cos.io/our-ser
 - [ ] **Do the results rely on a series of pre-processing and analysis steps?**
   - [ ] Do the authors clearly describe all steps or provide a flow-chart of the steps?
   - [ ] If no, do the authors refer to a pre-existing publicly available workflow?
-  - [ ] **Advanced:** Do the authors provide code for automated execution of described workflows (eg. snakemake/nextflow workflows)?
-
+  
+- [ ] **Advanced:** Do the authors provide code for automated execution of described workflows (eg. snakemake/nextflow workflows)?
 - [ ] **Advanced:** Do the authors provide a self-contained workflow execution environment (eg. Docker containers)?
 - [ ] **Advanced** Has the code/software provided by the authors been through a code review?
 
