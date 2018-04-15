@@ -1,6 +1,6 @@
 # eLifeAmbassadors computational reproducibility checklist for reviewers
 
-This checklist has been adopted from the [TOP guidelines](https://cos.io/our-services/top-guidelines/) for reproducibility, described in [this article](http://science.sciencemag.org/content/348/6242/1422.full) and modified to integrate various other editorial policies and guidelines provided by a range of publishers in life sciences. This checklist would evolve with the input of the community. Feedbacks and comments are welcome though #eLifeAmbassadors on twitter. For suggestions, please open an issue on this repository.
+This checklist has been adopted from the [TOP guidelines](https://cos.io/our-services/top-guidelines/) for reproducibility, described in [this article](http://science.sciencemag.org/content/348/6242/1422.full) and modified to integrate various other editorial policies and guidelines provided by a range of publishers in life sciences. This checklist would evolve with the input of the community. Feedbacks and comments are welcome through the hashtag #eLifeAmbassadors on twitter. For suggestions, please open an issue on this repository.
 
 
 ## Computational reproducibility checklist for reviewers in life sciences
