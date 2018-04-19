@@ -22,15 +22,15 @@ This checklist has been adopted from the [TOP guidelines](https://cos.io/our-ser
 - [ ] **Do the results rely on a series of pre-processing and analysis steps?**
   - [ ] Do the authors clearly describe all steps or provide a flow-chart of the steps?
   - [ ] If no, do the authors refer to a pre-existing publicly available workflow?
-  
+
 - [ ] **Advanced:** Do the authors provide code for automated execution of described workflows (eg. snakemake/nextflow workflows)?
 - [ ] **Advanced:** Do the authors provide a self-contained workflow execution environment (eg. Docker containers)?
 - [ ] **Advanced** Has the code/software provided by the authors been through a code review?
 
 - [ ] **Do the results include analysis of original data?**
 
-  - [ ] Do the authors make the data available at a trusted digital repository?
-  - [ ] Do the authors include all variables, treatment conditions, and observations described in the manuscript?
+  - [ ] Do the authors make the data available at a trusted digital repository*?
+  - [ ] Do the authors include all meta-data to reproduce the analysis*?
   - [ ] Do the authors provide a full account of the procedures used to collect, preprocess, clean, or generate the data?
   - [ ] Do the authors provide research materials and description of procedures necessary to conduct an independent replication of the research?
 
@@ -42,6 +42,13 @@ This checklist has been adopted from the [TOP guidelines](https://cos.io/our-ser
   - [ ] Do the authors provide access to all data and materials for which the constraints do not apply?
 
 
-**What's a trusted repository**
+**What's a trusted digital repository**
 - Trusted repositories adhere to policies that make data discoverable, accessible, usable, and preserved for the long term. Trusted repositories also assign unique and persistent identifiers. Author maintained websites are not compliant with this requirement.
 - Note: If all data required to reproduce the reported analyses appears in the article text, tables, and figures then it does not also need to be posted to a repository.
+
+**What's the required meta-data**
+Any description of data associated with the results that's important for reproducing the analysis and interpretation of the results described in the manuscript, can be considered meta-data, including but not limited to:
+- material type (cells, tissues) and culture/storage conditions
+- material extraction protocol (how was the material obtained)
+- variables (eg. batches) and treatment conditions
+- any other experimental observations that affects the analysis
