@@ -47,6 +47,7 @@ This checklist has been adopted from the [TOP guidelines](https://cos.io/our-ser
 - Note: If all data required to reproduce the reported analyses appears in the article text, tables, and figures then it does not also need to be posted to a repository.
 
 **What's the required meta-data**
+
 Any description of data associated with the results that's important for reproducing the analysis and interpretation of the results described in the manuscript, can be considered meta-data, including but not limited to:
 - material type (cells, tissues) and culture/storage conditions
 - material extraction protocol (how was the material obtained)
