@@ -1,0 +1,150 @@
+doi:
+    title: Enter DOI of the evaluated article/preprint
+    qtitle: DOI
+    type: text
+    mandatory: true
+    bold: true
+question1:
+    title: Do the authors report results based on a quantitative analysis? (Either original data or re-analysis of publicly available dataset)
+    qtitle: Contains quantitative results?
+    mandatory: true
+    bold: true
+question2:
+    title: Does the analysis include writing their own code?
+    qtitle: Contains own code?
+    mandatory: false
+    bold: true
+
+question3:
+    title: Do the authors provide program code, scripts, codebooks, and other documentation sufficient to precisely reproduce all published results?
+    qtitle: Code shared?
+    mandatory: false
+    bold: false
+question4:
+    title: Is code deposited in a standard code hosting repository?
+    qtitle: Code deposited in repo?
+    mandatory: false
+    bold: false
+question5:
+    title: If no, is the code provided in a human AND machine-readable format with the manuscript (i.e. not embedded in pdf, not exclusively as pre-compiled binaries)?
+    qtitle: Code provided in manuscript?
+    mandatory: false
+    bold: false
+
+question6:
+    title: Is the documentation hosted in a standard hosting repository (could be same or different from the code repository)?
+    qtitle: Documentation deposited in repo?
+    mandatory: false
+    bold: false
+
+question7:
+    title: Are the provided codes/scripts and documentation version controlled?
+    qtitle: Version controlled?
+    mandatory: false
+    bold: false
+question8:
+    title: Do the authors refer to the version of code/scripts and documentation used in manuscript?
+    qtitle: Code version stated?
+    mandatory: false
+    bold: false
+
+question9:
+    title: Does the analysis include use of previously published/available software or code?
+    qtitle: Online data analysis?
+    mandatory: false
+    bold: true
+
+question10:
+    title: Do the authors provide references (citations in case of published work, links in case of unpublished work) for all the softwares used in the analysis?
+    qtitle: Software cited?
+    mandatory: false
+    bold: false
+question11:
+    title: Do the authors mention version numbers for all the softwares used in the analysis?
+    qtitle: Software version cited?
+    mandatory: false
+    bold: false
+
+question12:
+    title: Do the results rely on a series of pre-processing and analysis steps?
+    qtitle: Multi-step processing involved?
+    mandatory: false
+    bold: true
+question13:
+    title: Do the authors clearly describe all steps or provide a flow-chart of the steps?
+    qtitle: Analysis workflow described?
+    mandatory: false
+    bold: false
+question14:
+    title: If no, do the authors refer to a pre-existing publicly available workflow?
+    qtitle: Public workflow referred?
+    mandatory: false
+    bold: false
+
+question15:
+    title: Do the authors provide code for automated execution of described workflows (eg. snakemake/nextflow workflows)?
+    qtitle: Workflow scripts shared?
+    mandatory: false
+    bold: false
+
+question17:
+    title: Do the authors provide a self-contained workflow execution environment (eg. Docker containers)?
+    qtitle: Containerized environment provided?
+    mandatory: false
+    bold: false
+
+question18:
+    title: Has the code/software provided by the authors been through a code review?
+    qtitle: Code gone through review?
+    mandatory: false
+    bold: false
+
+question19:
+    title: Do the results include analysis of original data?
+    qtitle: Original data analysed?
+    mandatory: false
+    bold: true
+question20:
+    title: Do the authors make the data available at a trusted digital repository?
+    qtitle: Data hosted in repo?
+    mandatory: false
+    bold: false
+
+question21:
+    title: Do the authors include all meta-data to reproduce the analysis?
+    qtitle: Meta data provided?
+    mandatory: false
+    bold: false
+
+question22:
+    title: Do the authors provide a full account of the procedures used to collect, preprocess, clean, or generate the data?
+    qtitle: Data collection described?
+    mandatory: false
+    bold: false
+question23:
+    title: Do the authors provide research materials and description of procedures necessary to conduct an independent replication of the research?
+    qtitle: Materials and procedures described?
+    mandatory: false
+    bold: false
+
+
+question24:
+    title: Are there any results based on data or materials that cannot be shared for legal or ethical reasons?
+    qtitle: Restricted data used?
+    mandatory: false
+    bold: true
+question25:
+    title: Do the authors explain the restrictions on the dataset or materials and how they preclude public access?
+    qtitle: Restrictions explained?
+    mandatory: false
+    bold: false
+question26:
+    title: Do the authors provide a public description of the steps others should follow to request access to the data or materials?
+    qtitle: Data access procedure mentioned?
+    mandatory: false
+    bold: false
+question27:
+    title: Do the authors provide access to all data and materials for which the constraints do not apply?
+    qtitle: Unrestricted data publicly available?
+    mandatory: false
+    bold: false
